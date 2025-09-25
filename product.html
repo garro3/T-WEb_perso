@@ -1,20 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <header>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="catalogue.html">Catalogue</a>
-            <a href="product.html">Product</a>
-            <a href="contact.html">Contact</a>
+         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand active" href="home.html">CacaCar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="catalogue.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header> 
+    </header>
+    <footer class="site-footer bg-dark text-white pt-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3 footer-brand">
+                    <h5>CacaCar</h5>
+                    <p>Votre voiture, votre liberté</p>
+                </div>
+                <div class="col-md-3 mb-3 footer-links">
+                    <h5>Liens utiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="home.html" class="footer-link">Accueil</a></li>
+                        <li><a href="catalogue.html" class="footer-link">Catalogue</a></li>
+                        <li><a href="product.html" class="footer-link">Produits</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3 footer-contact">
+                    <h5>Contact</h5>
+                    <p>Email : contact@cacacar.com</p>
+                    <p>Tél : 01 23 45 67 89</p>
+                    <p>Adresse : 12 rue des Autos, Paris</p>
+                </div>
+
+                <div class="col-md-3 mb-3 footer-social">
+                    <h5>Suivez-nous</h5>
+                    <a href="#" class="footer-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="text-center py-3 border-top footer-copy">
+                © 2025 CacaCar. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
