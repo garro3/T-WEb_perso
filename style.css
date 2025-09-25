@@ -80,7 +80,8 @@ body {
 
 .video-hero {
   position: relative;
-  height: 100vh; /* toute la hauteur de la page */
+  height: calc(100vh - 80px); /* 100vh - hauteur de la navbar */
+  margin-top: 80px; /* décale la section sous la navbar */
   overflow: hidden;
 }
 
