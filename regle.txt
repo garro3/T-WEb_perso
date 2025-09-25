@@ -1,0 +1,58 @@
+Projet E Commerce
+# E-Commerce Website Development Project
+ 
+## Overview
+Create a professional and responsive e-commerce website for a company of your choice. This project will showcase your HTML/CSS skills and ability to create engaging user experiences.
+ 
+## Requirements
+
+### Core
+- Clean and structured HTML/CSS code
+- Fully responsive design (mobile, tablet, desktop)
+ 
+### Mandatory Features
+- Homepage with featured products
+- Product catalog
+- Company profil page
+- Contact form with email
+- User-friendly navigation menu
+ 
+### Visual Elements
+> **_INFO:_** A mockup is appreciated, but don't spend too much time on it
+ 
+- Professional color scheme
+- Interactive elements (hover effects, transitions)
+- Animations
+- Video content
+ 
+### User Experience
+- Intuitive navigation
+- Clear product categorization
+- Mobile-friendly interface
+- Accessible design
+ 
+### Technical Stack
+- HTML5
+- CSS3
+- JavaScript (optional)  
+- Frameworks allowed (Bootstrap, Tailwind, etc.)  
+- Libraries allowed (jQuery, AlpineJS, etc.)
+> **_INFO:_** The usage of frameworks and librairies is authorized
+ 
+## Deployment
+- Static pages can be access online (GitHub Pages)
+ 
+ 
+## Resources
+Example websites for inspiration:
+- [PrestaShop Examples](https://prestashop.fr/exemples-sites-ecommerce/)
+- [Shopify Examples](https://www.shopify.com/examples)
+ 
+ 
+## Timeline
+Two days to complete all requirements (Project due to Sunday 23h42)
+ 
+> **_Remember:_**: Your website should be both visually appealing and functional, as it represents a real business environment.
+Exemples Sites E-commerce : les plus belles boutiques PrestaShop | PrestaShop
+Inspirez-vous des meilleurs sites e-commerce PrestaShop pour créer le vôtre et lancez votre business en ligne !
+ 
