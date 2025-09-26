@@ -1,15 +1,16 @@
-/* CSS Variables */
+/* Variables CSS pour la cohérence des couleurs */
 :root {
   --white: #fff;
   --cerulean: rgba(122, 66, 13, 0.404);
 }
 
+/* Dégradé de fond sur toute la page */
 body {
   background: linear-gradient(135deg, var(--white), var(--cerulean));
   color: #333;
 }
 
-/* Shopify Section Styles (if used) */
+/* Section avec style Shopify */
 .shopify-style-section {
   color: #fff;
 }
@@ -25,7 +26,7 @@ body {
   width: 100%;
 }
 
-/* Card Styles */
+/* Cartes Bootstrap standard */
 .card {
   display: flex;
   flex-direction: column;
@@ -38,7 +39,8 @@ body {
   object-fit: cover;
   width: 100%;
 }
-/* Custom Card Styles */
+
+/* Cartes personnalisées avec effets hover */
 .custom-card {
   position: relative;
   overflow: hidden;
@@ -57,6 +59,8 @@ body {
 .custom-card:hover .image img {
   filter: brightness(0.8);
 }
+
+/* Contenu qui apparaît au survol */
 .custom-card .hidden-content {
   opacity: 0;
   max-height: 0;
@@ -69,7 +73,7 @@ body {
   margin-top: 10px;
 }
 
-/* Video Hero Section */
+/* Section héros avec vidéo de fond */
 .video-hero {
   position: relative;
   height: calc(100vh - 80px);
