@@ -10,17 +10,17 @@ body {
   color: #333;
 }
 
-/* Section avec style Shopify */
-.shopify-style-section {
+/* Section avec galerie d'images */
+.gallery-section {
   color: #fff;
 }
-.shopify-style-section h2 {
+.gallery-section h2 {
   font-size: 2.5rem;
 }
-.shopify-style-section .lead {
+.gallery-section .lead {
   font-size: 1.2rem;
 }
-.shopify-style-section img {
+.gallery-section img {
   object-fit: cover;
   height: 150px;
   width: 100%;
@@ -91,5 +91,14 @@ body {
   z-index: -1;
   transform: translate(-50%, -50%);
   object-fit: cover;
+}
+
+/* Bouton Back to Top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
 }
 

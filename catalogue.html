@@ -38,6 +38,7 @@
             
             <!-- Grille responsive des cartes de voitures -->
             <div class="container mt-4" style="padding-top: 30px;">
+                <h1 class="text-center my-4" style="color: black;">All Cars</h1>
                 <div class="row g-4" aria-label="Car catalog">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card custom-card h-100">
@@ -226,6 +227,112 @@
                     </div>
                 </div>
             </div>
+            <div class="container mt-4" style="padding-top: 30px;">
+                <h1 class="text-center my-4" style="color: black;">Most Popular Cars</h1>
+                <div class="row g-4" aria-label="Car catalog">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture8.webp" class="card-img-top" alt="Renault Clio">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Renault Clio</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">Compact, economical, and ideal for the city. The Renault Clio
+                                        offers comfort and reliability every day.</p>
+                                    <a href="product.html" class="btn btn-outline-danger"
+                                        aria-label="Buy Renault Clio">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture9.jpg" class="card-img-top" alt="Citroën C3">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Citroën C3</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">The Citroën C3 stands out for its bold style, exceptional
+                                        comfort
+                                        and modern equipment, ideal for urban and suburban journeys.</p>
+                                    <a href="product.html" class="btn btn-outline-danger">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture6.jpg" class="card-img-top" alt="Peugeot 208">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Peugeot 208</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">The Peugeot 208 impresses with its modern design, onboard
+                                        technology
+                                        and energy efficiency, perfect for the city and daily commutes.</p>
+                                    <a href="product.html" class="btn btn-outline-danger">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture15.jpg" class="card-img-top" alt="Renault Captur">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Renault Captur</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">The Renault Captur combines style, versatility and advanced
+                                        technologies,
+                                        perfect for families and urban adventurers.</p>
+                                    <a href="product.html" class="btn btn-outline-danger">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture20.jpg" class="card-img-top" alt="Volkswagen Golf">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Volkswagen Golf</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">The Volkswagen Golf is renowned for its versatility, build
+                                        quality
+                                        and driving pleasure, ideal for all types of journeys.
+                                    </p>
+                                    <a href="product.html" class="btn btn-outline-danger">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card custom-card h-100">
+                            <div class="image">
+                                <img src="voiture/voiture3.jpg" class="card-img-top" alt="Ford Fiesta">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ford Fiesta</h5>
+                                <div class="hidden-content">
+                                    <p class="card-text">The Ford Fiesta is known for its dynamism, maneuverability and
+                                        modern design, perfect for the city and young drivers.</p>
+                                    <a href="product.html" class="btn btn-outline-danger">Buy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="site-footer bg-dark text-white pt-4 mt-5">
@@ -273,5 +380,24 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Bouton Back to Top avec Bootstrap -->
+    <button class="btn btn-primary btn-lg back-to-top rounded-circle" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script>
+        window.onscroll = function() {
+            const btn = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                btn.style.display = 'block';
+            } else {
+                btn.style.display = 'none';
+            }
+        };
+        
+        document.getElementById('backToTop').onclick = function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+    </script>
 </body>
 </html>
